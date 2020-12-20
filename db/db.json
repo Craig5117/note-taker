@@ -3,16 +3,6 @@
     {
       "title": "Test Title",
       "text": "Test text"
-    },
-    {
-      "title": "this is my note title",
-      "text": "this is my note text",
-      "id": "1"
-    },
-    {
-      "title": "this is my other note title",
-      "text": "this is my other note text",
-      "id": "2"
     }
   ]
 }
