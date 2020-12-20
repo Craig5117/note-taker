@@ -1,7 +1,8 @@
 const express = require('express');
-
+const morgan = require('morgan');
 const PORT = process.env.PORT || 3001;
 const app = express();
+app.use(morgan('dev'))
 const apiRoutes = require('./routes/apiRoutes');
 const htmlRoutes = require('./routes/htmlRoutes');
 
