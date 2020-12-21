@@ -4,7 +4,12 @@
       "title": "My New Note",
       "text": "This is my new note.",
       "id": 5
+    },
+    {
+      "title": "Another Note",
+      "text": "More Text.",
+      "id": 6
     }
   ],
-  "nextId": 6
+  "nextId": 7
 }

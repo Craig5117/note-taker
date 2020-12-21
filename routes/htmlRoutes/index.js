@@ -7,7 +7,7 @@ router.get("/notes", (req, res) => {
 });
 
 // refers root to index.html and anything else that is not a defined route
-router.get("/*", (req, res) => {
+router.get("*", (req, res) => {
   res.sendFile(path.join(__dirname, "../../public/index.html"));
 });
 
